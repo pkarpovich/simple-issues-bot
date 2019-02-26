@@ -8,6 +8,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
+        "start": "node index.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
@@ -37,5 +38,11 @@
             "prettier --write",
             "git add"
         ]
+    },
+    "dependencies": {
+        "dotenv": "6.2.0",
+        "github": "14.0.0",
+        "github-app": "4.0.1",
+        "github-webhook-handler": "0.7.1"
     }
 }
